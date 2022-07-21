@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("..\\Plans\\Images\\bggym.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: default;
+    max-height: 100vh;
+}
+
+.logo {
+    background-image: url("..\\Home\\Images\\logo-01.png");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 52px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.list-div {
+    background-color: #000;
+    width: 100%;
+    color: #ffffff;
+    height: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav ui:hover {
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.nav:hover {
+    cursor: default;
+}
+
+.nav {
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    word-spacing: 40px;
+    position: relative;
+    top: -45px;
+    right: 35px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.headplan {
+    position: absolute;
+    width: 562px;
+    height: 168px;
+    left: 460px;
+    top: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #171d28;
+}
+
+.dummy {
+    position: absolute;
+    width: 901px;
+    height: 93px;
+    left: 290px;
+    top: 400px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 120%;
+    text-align: center;
+    color: #171d28;
+}
+
+.allplans{
+    position: absolute;
+    width: 281px;
+    height: 60.98px;
+    left: 580px;
+    top: 550px;
+    background: #05D8EA;
+    border-radius: 8px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.allplans:hover{
+    width: 290px;
+    height: 70px;
+    font-size: 50px;
+    cursor:pointer;
+}
+
+.second{
+    min-height: 165vh;
+}
+
+.lite{
+    box-sizing: border-box;
+    width: 422px;
+    height: 850px;
+    margin-top: 750px;
+    margin-left: 50px;
+    background-color: #FFFFFF;
+    border: 3px solid #000000;
+}
+
+.headlite{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    color: #283D5F;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.price{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    color: #283D5F;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.subscript{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    color: #121720;
+    margin-top: -55px;
+    margin-left: 120px;
+}
+
+.litedummy{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-left: -120px;
+}
+
+.choose{
+    margin-top: 50px;
+    margin-left: -50px;
+    width: 281px;
+    height: 60.98px;
+    background: #05D8EA;
+    border-radius: 8px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.choose:hover{
+    width: 290px;
+    height: 70px;
+    font-size: 50px;
+    cursor:pointer;
+}
+
+.basic{
+    box-sizing: border-box;
+    width: 422px;
+    height: 850px;
+    margin-top: -700px;
+    margin-left: 550px;
+    background-color: #FFFFFF;
+    border: 3px solid #000000;
+}
+
+.headbasic{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    color: #283D5F;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.price02{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    color: #283D5F;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.subscript02{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    color: #121720;
+    margin-top: -55px;
+    margin-left: 120px;
+}
+
+.basicdummy{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-left: -120px;
+}
+
+.choose02{
+    margin-top: 50px;
+    margin-left: -50px;
+    width: 281px;
+    height: 60.98px;
+    background: #05D8EA;
+    border-radius: 8px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.choose02:hover{
+    width: 290px;
+    height: 70px;
+    font-size: 50px;
+    cursor:pointer;
+}
+
+.prem{
+    box-sizing: border-box;
+    width: 422px;
+    height: 850px;
+    margin-top: -700px;
+    margin-left: 1050px;
+    background-color: #FFFFFF;
+    border: 3px solid #000000;
+}
+
+.headprem{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    color: #283D5F;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.price03{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    color: #283D5F;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.subscript03{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    color: #121720;
+    margin-top: -55px;
+    margin-left: 150px;
+}
+
+.premdummy{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-left: -150px;
+}
+
+.choose03{
+    margin-top: 50px;
+    margin-left: -70px;
+    width: 281px;
+    height: 60.98px;
+    background: #05D8EA;
+    border-radius: 8px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.choose03:hover{
+    width: 290px;
+    height: 70px;
+    font-size: 50px;
+    cursor:pointer;
+}
+
+.credits{
+    margin-top: 122px;
+    min-height: 543px;
+}
+
+.creditsbox{
+    background-color: #171D28;
+    height: 543px;
+    width: 100%;
+}
+
+.logocr{
+    background-image: url("..\\Home\\Images\\logo-01.png");
+    background-color: #171D28;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:250px;
+    height:252px;
+    margin-left: 250px;
+}
+
+.call .material-symbols-outlined{
+    color: white;
+    margin-left: 200px;
+}
+
+.num{
+    color:white;
+    margin-top: -30px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Rubik';
+}
+
+.location .material-symbols-outlined{
+    color:white;
+    margin-left:200px;
+    margin-top: 50px;
+}
+
+.locatetext{
+    color:white;
+    margin-top: -30px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Rubik';
+}
+
+.mail .material-symbols-outlined{
+    color:white;
+    margin-left:200px;
+    margin-top: 50px;
+}
+
+.mailtext{
+    color:white;
+    margin-top: -30px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Rubik';
+}
+
+.links{
+    color:white;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 120px;
+    color: #FFFFFF; 
+    margin-top: -350px;
+    margin-left: 750px;
+    
+}
+
+.headlink{
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.linkslist{
+    font-size: 20px;
+    list-style: none;
+    display: block;
+    line-height: 60px;
+}
+
+.linkslist li:hover{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.linkslist02{
+    margin-top: -300px;
+    margin-left: 150px;
+    font-size: 20px;
+    list-style: none;
+    display: block;
+    line-height: 60px;
+}
+
+.linkslist02 li:hover{
+    cursor: pointer;
+    font-size: 30px;
+}
+.signuptext{
+    color: white;
+    font-size:20px;
+    margin-left: 1150px;
+    margin-top: -375px;
+    font-family: 'Rubik';
+}
+
+.signuptextbox{
+    background-color: #171D28;
+    height: 40px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-left: 1120px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Rubik';
+    text-align: center;
+
+}
+
+.signupbutton{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    color: #fff;
+    background-color: #05D8EA;
+    margin-left: 1200px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;  
+    font-weight: 5%;
+    padding: 5px 30px 10px 30px;
+    border-radius: 8px;
+}
+
+.signupbutton:hover{
+    cursor: pointer;
+    padding: 10px 40px 10px 40px;
+    font-size: 30px;
+}

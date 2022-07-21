@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("..\\Home\\Images\\HomeBG.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: default;
+    max-height: 100vh;
+
+
+}
+    
+.logo{
+    background-image: url("..\\Home\\Images\\logo-01.png");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:52px;
+    height:50px;
+    margin-left: 50px;
+}
+
+.list-div {
+    background-color: #000;
+    width: 100%;
+    color: #ffffff;
+    height: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav ui:hover {
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.nav:hover {
+    cursor: default;
+}
+
+.nav {
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    word-spacing: 40px;
+    position: relative;
+    top: -45px;
+    right: 35px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.start {
+    color: white;
+    font-size: 60px;
+    margin-left: 800px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fitness {
+    color: #121720;
+    font-size: 130px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    font-weight: 10;
+    margin-top: -15px;
+    margin-left: 800px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.line {
+    width: 22%;
+    border: 4px solid #05D8EA;
+    margin-left: 955px;
+}
+
+.lorem {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    color: #fff;
+    margin-right: 200px;
+    margin-left: 880px;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 5%;
+}
+
+.trial {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    color: #fff;
+    background-color: #121720;
+    margin-right: 200px;
+    margin-left: 1100px;
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 5%;
+    padding: 5px 50px 10px 50px;
+    border: 4px solid #05D8EA;
+    border-radius: 50px;
+}
+
+.online {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    color: #fff;
+    background-color: #121720;
+    margin-right: 200px;
+    margin-left: 1100px;
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 5%;
+    padding: 5px 30px 10px 40px;
+    border: 4px solid #05D8EA;
+    border-radius: 50px;
+
+}
+
+.trial:hover {
+    cursor: pointer;
+    border: 4px solid black;
+    background-color: #05D8EA;
+    color: #000;
+}
+
+.online:hover {
+    cursor: pointer;
+    border: 4px solid black;
+    background-color: #05D8EA;
+    color: #000;
+}
+
+.second {
+    min-height: 50vh;
+    color: white;
+}
+
+.whoarewe {
+    background-color: white;
+    padding-top: 350px;
+    width: 100%;
+    margin-top: 206px;
+
+}
+
+.whoaretext {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 59px;
+    line-height: 69px;
+    color: #283D5F;
+    text-align: center;
+    margin-top: -300px;
+
+}
+
+.dummy {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #283D5F;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 60px;
+}
+
+.third {
+    min-height: 120vh;
+    background-image: url("..\\Home\\Images\\2-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calmdownbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 7px;
+    gap: 27px;
+    position: absolute;
+    width: 352px;
+    height: 388px;
+    left: 54px;
+    top: 1375px;
+    background: #FFFFFF;
+    box-shadow: 7px 8px 6px #05D8EA;
+    border-radius: 48px;
+}
+
+.calmdown {
+    background-image: url("..\\Home\\Images\\calmdown.jpeg");
+    position: absolute;
+    width: 298px;
+    height: 259px;
+    margin-top: 43px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.calmtext {
+    width: 202px;
+    height: 36px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #283D5F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 332px;
+}
+
+.podcaststext {
+    position: absolute;
+    width: 471px;
+    height: 67px;
+    left: 484px;
+    top: 34px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 67px;
+    color: #FFFFFF;
+    margin-top: 1220px;
+}
+
+.headphonesbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 7px;
+    gap: 27px;
+    position: absolute;
+    width: 352px;
+    height: 388px;
+    left: 504px;
+    top: 1375px;
+    background: #FFFFFF;
+    box-shadow: 7px 8px 6px #05D8EA;
+    border-radius: 48px;
+}
+
+.headphones {
+    background-image: url("..\\Home\\Images\\headphones.jpeg");
+    position: absolute;
+    width: 298px;
+    height: 259px;
+    left: 0px;
+    top: 0px;
+    margin-top: 60px;
+    margin-left: 40px;
+    border-radius: 30px;
+}
+
+.headphonestext {
+    width: 300px;
+    height: 36px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #283D5F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 290px;
+}
+
+.fourth {
+    min-height: 50vh;
+}
+
+.tenback {
+    color: white;
+    font-size: 220px;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: rgba(175, 172, 172, 0.3);
+    font-weight: 10;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tenfront {
+    position: absolute;
+    color: black;
+    margin-top: -220px;
+    margin-left: 65px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 110px;
+}
+
+.yoetext {
+    position: absolute;
+    width: 172px;
+    height: 78px;
+    left: 213px;
+    margin-top: -195px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.fifteenback {
+    color: white;
+    font-size: 220px;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: rgba(175, 172, 172, 0.3);
+    font-weight: 10;
+    margin-top: -265px;
+    margin-left: 600px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fifteenfront {
+    position: absolute;
+    color: black;
+    margin-top: -220px;
+    margin-left: 575px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 110px;
+}
+
+.sttext {
+    position: absolute;
+    width: 172px;
+    height: 78px;
+    left: 710px;
+    margin-top: -195px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.sfback {
+    color: white;
+    font-size: 220px;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: rgba(175, 172, 172, 0.3);
+    font-weight: 10;
+    margin-top: -265px;
+    margin-left: 1150px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sffront {
+    position: absolute;
+    color: black;
+    margin-top: -205px;
+    margin-left: 1100px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 110px;
+}
+
+.sftext {
+    position: absolute;
+    width: 172px;
+    height: 78px;
+    left: 1270px;
+    margin-top: -185px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.lowbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 35px 0px;
+    gap: 19px;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0px;
+    top: 2350px;
+    background: #171D28;
+}
+
+.lowtext {
+    margin-top: 10px;
+    width: 100%;
+    height: 39px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 39px;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fifth {
+    min-height: 100vh;
+}
+
+.fbt {
+    position: absolute;
+    width: 1386px;
+    height: 312px;
+    left: 55px;
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 214px;
+    line-height: 251px;
+    color: rgba(217, 217, 217, 0.3);
+}
+
+.coach {
+    position: absolute;
+    width: 687px;
+    height: 134px;
+    left: 65px;
+    margin-top: 89px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 65px;
+    color: #000000;
+
+}
+
+.firsttrainer {
+    background-image: url("..\\Home\\Images\\gymteacher01.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 340px;
+    height: 314px;
+    margin-left: 100px;
+    margin-top: 270px;
+    border-radius: 50px;
+
+}
+
+.kj {
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 600px;
+    ;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.ce {
+    position: absolute;
+    margin-left: 185px;
+    margin-top: 640px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+    color: #A3A3A3;
+
+}
+
+.secondtrainer {
+    background-image: url("..\\Home\\Images\\gymteacher02.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 340px;
+    height: 314px;
+    margin-left: 600px;
+    margin-top: 270px;
+    border-radius: 50px;
+
+}
+
+.rs {
+    position: absolute;
+    margin-left: 685px;
+    margin-top: 600px;
+    ;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.df {
+    position: absolute;
+    margin-left: 685px;
+    margin-top: 640px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+    color: #A3A3A3;
+
+}
+
+.thirdtrainer {
+    background-image: url("..\\Home\\Images\\gymteacher03.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 340px;
+    height: 314px;
+    margin-left: 1100px;
+    margin-top: 270px;
+    border-radius: 50px;
+
+}
+
+.aj {
+    position: absolute;
+    margin-left: 1170px;
+    margin-top: 600px;
+    ;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.ys {
+    position: absolute;
+    margin-left: 1190px;
+    margin-top: 640px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+    color: #A3A3A3;
+}
+
+.credits{
+    margin-top: 122px;
+    min-height: 543px;
+}
+
+.creditsbox{
+    background-color: #171D28;
+    height: 543px;
+    width: 100%;
+}
+
+.logocr{
+    background-image: url("..\\Home\\Images\\logo-01.png");
+    background-color: #171D28;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:250px;
+    height:252px;
+    margin-left: 250px;
+}
+
+.call .material-symbols-outlined{
+    color: white;
+    margin-left: 200px;
+}
+
+.num{
+    color:white;
+    margin-top: -30px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Rubik';
+}
+
+.location .material-symbols-outlined{
+    color:white;
+    margin-left:200px;
+    margin-top: 50px;
+}
+
+.locatetext{
+    color:white;
+    margin-top: -30px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Rubik';
+}
+
+.mail .material-symbols-outlined{
+    color:white;
+    margin-left:200px;
+    margin-top: 50px;
+}
+
+.mailtext{
+    color:white;
+    margin-top: -30px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Rubik';
+}
+
+.links{
+    color:white;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 120px;
+    color: #FFFFFF; 
+    margin-top: -350px;
+    margin-left: 750px;
+    
+}
+
+.headlink{
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.linkslist{
+    font-size: 20px;
+    list-style: none;
+    display: block;
+    line-height: 60px;
+}
+
+.linkslist li:hover{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.linkslist02{
+    margin-top: -300px;
+    margin-left: 150px;
+    font-size: 20px;
+    list-style: none;
+    display: block;
+    line-height: 60px;
+}
+
+.linkslist02 li:hover{
+    cursor: pointer;
+    font-size: 30px;
+}
+.signuptext{
+    color: white;
+    font-size:20px;
+    margin-left: 1150px;
+    margin-top: -375px;
+    font-family: 'Rubik';
+}
+
+.signuptextbox{
+    background-color: #171D28;
+    height: 40px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-left: 1120px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Rubik';
+    text-align: center;
+
+}
+
+.signupbutton{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    color: #fff;
+    background-color: #05D8EA;
+    margin-left: 1200px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;  
+    font-weight: 5%;
+    padding: 5px 30px 10px 30px;
+    border-radius: 8px;
+}
+
+.signupbutton:hover{
+    cursor: pointer;
+    padding: 10px 40px 10px 40px;
+    font-size: 30px;
+}
